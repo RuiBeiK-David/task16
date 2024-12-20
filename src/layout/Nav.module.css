@@ -1,0 +1,63 @@
+.nav {
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menuLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.menuLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.menuLinks a:hover {
+  color: #F68B1F;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.makeRequest, .calculation {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.makeRequest {
+  background: #F68B1F;
+  color: white;
+}
+
+.calculation {
+  background: #2F2B43;
+  color: white;
+}
+
+.makeRequest img, .calculation img {
+  width: 20px;
+  height: 20px;
+} 
